@@ -1,0 +1,15 @@
+{
+  "common": {
+    "actions": {
+      "next": "Next"
+    }
+  },
+  "validation": {},
+  "toast": {},
+  "sites": {
+    "team": {
+      "add_team_division": "Add team division"
+    }
+  },
+  "users": {}
+}

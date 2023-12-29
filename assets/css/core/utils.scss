@@ -1,0 +1,27 @@
+@layer base {
+
+  .with-arrow {
+    @apply relative;
+
+    &::before {
+      content: '';
+      @apply absolute block w-6 h-6 bg-inherit rounded-sm rotate-45;
+    }
+
+    &.arrow-t::before {
+      @apply -top-2.5;
+    }
+    &.arrow-b::before {
+      @apply -bottom-2.5;
+    }
+    &.arrow-l::before {
+      @apply left-4;
+    }
+    &.arrow-center::before {
+      @apply left-[50%] -translate-x-1/2;
+    }
+    &.arrow-r::before {
+      @apply right-4;
+    }
+  }
+}

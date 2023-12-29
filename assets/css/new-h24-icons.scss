@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'new-h24-icons';
+    src: url(../fonts/new-h24/new-h24.eot);
+    src: url(../fonts/new-h24/new-h24.eot#iefix) format("embedded-opentype"), url(../fonts/new-h24/new-h24.woff) format("woff"), url(../fonts/new-h24/new-h24.ttf) format("truetype"), url(../fonts/new-h24/new-h24.svg#mfn-icons) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class^="new-h24-icon-"], [class*=" new-h24-"] {
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[class^="new-h24-icon-"]:before, [class*=" new-h24-"]:before {
+    font-family: "new-h24-icons";
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+}
+
+.new-h24-icon-arrow:before {
+  content: '\e905';
+}
+
+.new-h24-icon-add:before {
+    content: '\e90f';
+}
+
+.new-h24-icon-arrow-down:before {
+    content: '\e910';
+}
+
+.new-h24-icon-branding:before {
+    content: '\e901';
+}
+
+.new-h24-icon-checkbox:before {
+    content: '\e93d';
+}
+
+.new-h24-icon-close:before {
+  content: '\e912';
+}
+
+.new-h24-icon-dashboard:before {
+    content: '\e907';
+}
+
+.new-h24-icon-edit:before {
+    content: '\e918';
+}
+
+.new-h24-icon-filter:before {
+    content: '\e91c';
+}
+
+.new-h24-icon-hammer:before {
+    content: '\e91d';
+}
+
+.new-h24-icon-more-options:before {
+  content: '\e931';
+}
+
+.new-h24-icon-news:before {
+    content: '\e932';
+}
+
+.new-h24-icon-newsletter:before {
+    content: '\e908';
+}
+
+.new-h24-icon-notification:before {
+    content: '\e934';
+}
+
+.new-h24-icon-phone:before {
+  content: '\e936';
+}
+
+.new-h24-icon-prod-settings:before {
+    content: '\e909';
+}
+
+.new-h24-icon-product:before {
+    content: '\e90a';
+}
+
+.new-h24-icon-search:before {
+    content: '\e938';
+}
+
+.new-h24-icon-settings:before {
+    content: '\e90b';
+}
+
+.new-h24-icon-site-content:before {
+    content: '\e90c';
+}
+
+.new-h24-icon-team:before {
+    content: '\e93a';
+}
+
+.new-h24-icon-translate:before {
+    content: '\e90d';
+}
+
+.new-h24-icon-user:before {
+    content: '\e937';
+}
+
+.new-h24-icon-user-roles:before {
+    content: '\e90e';
+}
+
+.new-h24-icon-pdf:before {
+  content: '\e906';
+}

@@ -1,0 +1,22 @@
+@import "flag-icons/css/flag-icons.min.css";
+
+@import "core";
+@import "new-h24-icons";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-sans-pro text-dark text-base;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #EBEDEE #EBEDEE;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
